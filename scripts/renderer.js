@@ -56,7 +56,7 @@ class Renderer {
         this.drawBezierCurve({x: 200, y: 50}, {x: 200, y: 100}, {x: 250, y: 80}, {x: 250, y: 50}, 20, [0, 0, 255, 255], framebuffer);
         // Following line is example of drawing a single line
         // (this should be removed after you implement the curve)
-        this.drawLine({x: 100, y: 100}, {x: 600, y: 300}, [255, 0, 0, 255], framebuffer);
+        //this.drawLine({x: 100, y: 100}, {x: 600, y: 300}, [255, 0, 0, 255], framebuffer);
     }
 
     // framebuffer:  canvas ctx image data
@@ -77,10 +77,10 @@ class Renderer {
         this.drawConvexPolygon([{x: 160, y: 150}, {x: 150, y: 175}, {x: 160, y: 200}, {x: 190, y: 200}, {x: 200, y: 175}, {x: 190, y: 150}], [0, 128, 128, 255]);
         // Following lines are example of drawing a single triangle
         // (this should be removed after you implement the polygon)
-        let point_a = {x:  80, y:  40};
-        let point_b = {x: 320, y: 160};
-        let point_c = {x: 240, y: 360};
-        this.drawTriangle(point_a, point_c, point_b, [0, 128, 128, 255], framebuffer);
+        //let point_a = {x:  80, y:  40};
+        //let point_b = {x: 320, y: 160};
+        //let point_c = {x: 240, y: 360};
+        //this.drawTriangle(point_a, point_c, point_b, [0, 128, 128, 255], framebuffer);
     }
 
     // framebuffer:  canvas ctx image data
